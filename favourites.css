@@ -1,0 +1,148 @@
+
+*{
+    font-family: Orbitron;
+    color: white;
+    background-color: black;
+}
+
+
+body, html{
+    margin: 0;
+}
+
+body{
+    position: relative;
+    height: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px 0px #4E9F3D;
+    z-index: 99;
+}
+
+
+header *{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.favourite-router *{
+    border-radius: 10px;
+}
+
+.favourite-router *:hover{
+    color: #4E9F3D;
+}
+
+.app-name{
+    padding-left: 20px;
+}
+
+.app-name a{
+    text-decoration: none;
+    color: #4E9F3D;
+}
+
+
+
+#stat-bars{
+    width: 90%;
+    font-size: .9rem;
+}
+
+.bar-container{
+    background-color: rgba(0, 0, 0, 0);
+    width: 82%;
+    padding: 2px 0px 2px 0px;
+    margin-top: 3px;
+}
+
+.bar{
+    background-color: #4E9F3D;
+    border-radius: 10px;
+    padding: 2px 0px 2px 0px;
+    padding-left: 5px;
+}
+
+
+#result-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(172, 172, 172);
+    top: 80px;
+}
+
+#results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    height: 100%;
+}
+
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    border: 2px solid #4E9F3D;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #5a5a5a;
+}
+
+.card-img-container img{
+    height: 180px;
+    width: 180px;
+    border-radius: 15px;
+}
+
+.card-name{
+    padding: 4px;
+    padding-top: 8px;
+    font-size: 1.4rem;
+}
+
+.card-name:hover{
+    color: #4E9F3D;
+    cursor: pointer;
+}
+
+
+#stats-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+
+#stat-names{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-right: 10px;
+}
+
+#stat-names span{
+    display: block;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
